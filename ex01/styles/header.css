@@ -31,7 +31,7 @@
     display: none;
     background-color: white;
     line-height: 2em;
-    
+    text-align: left;
 }
 
 .listas__conteudo {
@@ -48,4 +48,8 @@
 
 .strong {
     color: var(--amt);
+}
+
+.check {
+    display: none;
 }
