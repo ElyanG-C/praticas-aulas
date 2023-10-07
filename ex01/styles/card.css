@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+
+}
+
+.card__texto {
+    
+}

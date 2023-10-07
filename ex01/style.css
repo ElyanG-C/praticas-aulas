@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrosel.css");
+@import url("styles/card.css");
 * {
     padding: 0;
     margin: 0;
