@@ -13,3 +13,7 @@
     --azul: #002F52;
     --amarelo: #EB9B00;
 }
+
+body {
+    font-size: 16px;
+}
