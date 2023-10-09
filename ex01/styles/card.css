@@ -21,10 +21,22 @@
      margin: 0.5em 0px 0px 0px;
 }
 
-.botoes__link {
+.botoes {
+   
+}
+
+.botoes__link-classe {
     display: flex;
+    flex-direction: row-reverse;
+    margin: 1em 2em 0px 2em
+}
+
+
+.botoes__link {
+    padding: 15px;
+    border-radius: 2px;
+
    color: white;
     background-color: orange;
-    width: 150px;
     text-align: center;
 }
