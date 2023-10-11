@@ -8,8 +8,10 @@
 .agenda__lista {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .botao {
@@ -17,10 +19,16 @@
     justify-content: center;
 }
 
-.agenda__informacoes {
-    display: flex;
-    flex-direction: co
+
+
+.agenda__atracao {
+    
 }
+
+.agenda__item {
+    flex-grow: 2;
+}
+
 @media (min-width: 720px) {
 
 }
