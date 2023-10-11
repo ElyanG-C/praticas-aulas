@@ -2,6 +2,25 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
+}
+
+.agenda__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.botao {
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda__informacoes {
+    display: flex;
+    flex-direction: co
+}
+@media (min-width: 720px) {
+
 }
