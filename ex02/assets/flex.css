@@ -26,9 +26,21 @@
 }
 
 .agenda__item {
-    flex-grow: 2;
+    display: grid;  
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 120px 120px;
 }
 
-@media (min-width: 720px) {
+.agenda__informacoes {
+    grid-row: 2;
+}
 
+.agenda__atracao {
+    grid-row: 1;
+}
+
+
+
+@media (min-width: 720px) {
+       
 }

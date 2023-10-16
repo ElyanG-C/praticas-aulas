@@ -1,0 +1,10 @@
+.conteudo__principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divisao1__sessao2 {
+    display: grid;
+    grid-template-columns: 220px;
+}
+

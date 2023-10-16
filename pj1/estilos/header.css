@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.cabeçalho__imagem {
+    background-image: url(../Img/Menu\ Aberto.svg);
+}
+
+.listas {
+    display: none;
+    background-color: black;
+    color: white;
+    line-height: 2em;
+    text-align: left;
+}
+
+.listas__conteudo {
+    display: flex;
+    
+   
+}
+
+.check:checked~.listas {
+    display: block;
+}
+
+.check {
+    display: none;
+}

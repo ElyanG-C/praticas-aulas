@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <header class="cabecalho">
+        <span class="menu" ></span>
+   
+        <h1 class="cabecalho__titulo">PROGRAMAÇAO</h1>
+        <nav>
+            <a href="#" class="cabecalho__link">VEJA MAIS</a>
+            <a href="#" class="cabecalho__link">OBSERVAÇOES</a>
+            <a href="#" class="cabecalho__link">CONTATO</a>
+            <a href="#" class="cabecalho__link">GENEROS</a>
+        </nav>
+    </header>
+
+
+    <script>
+
+var menuButton = document.querySelector(".menu");
+var menu = document.querySelectorAll(".cabecalho__link");
+
+menuButton.addEventListener("click", function() {
+  if (menu.style.display === "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+});         
+    </script>
+</body>
+</html>

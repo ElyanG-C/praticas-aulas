@@ -1,0 +1,6 @@
+@import url("estilos/header.css");
+@import url("estilos/conteudo.css");
+
+:root {
+    --header: #FAD06B;
+}
