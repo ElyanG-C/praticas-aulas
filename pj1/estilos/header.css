@@ -1,14 +1,11 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    
+    background-color: var(--header);
+    padding: 15px;
 }
 
 
-
-.cabeçalho__imagem {
-    background-image: url(../Img/Menu\ Aberto.svg);
-}
 
 .listas {
     display: none;
@@ -16,12 +13,16 @@
     color: white;
     line-height: 2em;
     text-align: left;
+    padding: 12px;
+    margin: 5px;
+}
+
+a {
+    color: white;
 }
 
 .listas__conteudo {
     display: flex;
-    
-   
 }
 
 .check:checked~.listas {
@@ -31,3 +32,18 @@
 .check {
     display: none;
 }
+
+.listas {
+   background-color: #2a210f ;
+   color: white;
+   text-align: center;
+   border-radius: 3px;
+}
+
+.listas__conteudo {
+    padding: 7px;
+   line-height: 2em;
+   margin-right: 40px;
+
+}
+

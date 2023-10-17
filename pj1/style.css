@@ -1,6 +1,22 @@
 @import url("estilos/header.css");
 @import url("estilos/conteudo.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
 
 :root {
-    --header: #FAD06B;
+    --font: 'Raleway', sans-serif;
+    --header: #635943;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: var(--font);
 }
