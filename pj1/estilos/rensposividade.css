@@ -1,0 +1,23 @@
+/* PEGAR MEDIDAS DAS TELAS */
+
+@media (min-width: 720px) {
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+    .informacao {
+        font-size: 22px;
+    }
+
+    .imagem__gojo {
+        width: 220px;
+    } 
+
+    .lista {
+        font-size: 22px;
+    }
+}

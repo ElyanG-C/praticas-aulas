@@ -1,21 +1,7 @@
 .conteudo__principal {
     display: flex;
     justify-content: space-between;
-}
-
-.sessao2 {
-    display: flex;
-
-}
-
-.divisao1__sessao2 {
-    align-items: center;
-    justify-content: center;
-}
-
-.sessao1 {
-   display: flex;
-
+    
 }
 
 .divisao1__sessao1 {
@@ -24,11 +10,37 @@
 }
 
 h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 h2 {
-    margin-right: 5em;
-    font-size: 1.1em;
+    font-size: 1.5em;
+}
+
+.informacao {
+    font-family: var(--font);
+    font-size: 18px;
+    margin: 15px;   
+}
+
+.imagem__gojo {
+    margin: 10px 50px 0px 0px;
+}
+
+.sessao3 {
+    padding: 15px;
+  text-align: center;
+  background-color: #272727;
+  margin: 20px;
+}
+
+.lista {
+    display: grid; 
+    gap: 5px;
+    margin: 10px 0px 10px 30px;
+}
+
+.lista__conteudo {
+     line-height: 1.4em;
 }
 

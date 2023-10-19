@@ -1,6 +1,12 @@
 @import url("estilos/header.css");
 @import url("estilos/conteudo.css");
+@import url("estilos/rensposividade.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+ 
+:root {
+    --font: 'Raleway', sans-serif;
+    --header: #635943;
+}
 
 * {
     text-decoration: none;
@@ -8,9 +14,8 @@
     margin: 0;
 }
 
-:root {
-    --font: 'Raleway', sans-serif;
-    --header: #635943;
+html, body {
+    overflow-x: hidden;
 }
 
 body {
