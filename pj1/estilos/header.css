@@ -6,45 +6,28 @@
     padding: 15px;
 }
 
-
-
-.listas {
+.lista {
     display: none;
-    background-color: black;
-    color: white;
     line-height: 2em;
     text-align: left;
     padding: 12px;
     margin: 5px;
+    background-color: #2a210f ;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
 }
 
 a {
     color: white;
 }
 
-.listas__conteudo {
+.lista__conteudo {
     display: flex;
-}
-
-.check:checked~.listas {
-    display: block;
-}
-
-.check {
-    display: none;
-}
-
-.listas {
-   background-color: #2a210f ;
-   color: white;
-   text-align: center;
-   border-radius: 3px;
-}
-
-.listas__conteudo {
     padding: 7px;
-   line-height: 2em;
-   margin-right: 40px;
-
+    line-height: 2em;
+    margin-right: 40px; 
 }
+
+
 
