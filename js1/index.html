@@ -146,6 +146,13 @@ button:disabled {
     }
 }
     </style>
+
+
+
+
+
+
+
 </head>
 <body>
     <div class="container">
@@ -162,6 +169,43 @@ button:disabled {
                 </div>
 
 
-    <script src="inter.js"></script>
+
+
+
+
+
+
+
+    <script>
+        let numeroSecreto = 6;
+    
+
+        function alterarTexto(tag, texto) {
+        let campo = document.querySelector(tag);
+        campo.innerHTML = texto;
+}
+
+alterarTexto('h1', 'Jogo do numero secreto');
+alterarTexto('p', 'Escolha um numero entre 1 a 10')
+
+function verificarChute() {
+    var pesquisa = document.querySelector('input');
+    var pais = 'EUA'
+    if( pais == Brasil) 
+    {
+       console.log('br');
+    } else 
+    {
+        console.log('estrangeiro');
+    } 
+}
+
+
+function gerarNumeroAleatorio() {
+    return parseInt(Math.random () * 10 + 1);
+}
+
+
+    </script>
 </body>
 </html>
