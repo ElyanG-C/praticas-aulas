@@ -1,7 +1,9 @@
 function clickMenu() {
-    if (menu.style.display == 'block') {
-        menu.style.display = 'none'
+    var lista = document.querySelector('.menu')
+    if(lista.style.display == 'block') {
+         lista.style.display = 'none'
     } else {
-        menu.style.display = 'none'
+        lista.style.display = 'block'
     }
 }
+

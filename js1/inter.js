@@ -1,11 +1,18 @@
-function mostrarTextoNaTela(tag, texto) {
-    var campo = document.querySelector(tag);
+let numeroSecreto = gerarNumeroAleatorio();
+
+function alterarTexto(tag, texto) {
+    let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
 
-mostrarTextoNaTela('h1', 'Tabuada ');
-mostrarTextoNaTela('p', 'Escolha um numero da tabuada');
+alterarTexto('h1', 'Jogo do numero secreto');
+alterarTexto('p', 'Escolha um numero entre 1 a 10')
 
-var numero = [1, 2, 3, 4, 5, 6, 7];
+function verificarChute() {
+    console.log('o botao foi clicado')
+}
 
+function gerarNumeroAleatorio() {
+    return parseInt(Math.random () * 10 + 1)
+}
 

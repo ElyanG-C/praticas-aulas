@@ -21,3 +21,10 @@
         font-size: 22px;
     }
 }
+
+@media (min-width: 1200px) {
+    .sessao1, .sessao3 {
+        max-width: 800px;
+        
+    }
+}
